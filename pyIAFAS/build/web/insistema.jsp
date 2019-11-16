@@ -1,0 +1,74 @@
+<%-- 
+    Document   : insistema
+    Created on : 05-oct-2019, 3:17:26
+    Author     : JJCUBAS
+--%>
+
+<%
+    String nombre = request.getSession().getAttribute("usuario").toString();
+%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+   <head>
+        <title>HQ - Estudio de Cotizaciones</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="Sources/css/styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+             <img src="Sources/img/logotitulo.png" alt="Logo" title="QStudy"/>
+            <h1><b>HQ - Estudio de Cotizaciones</b></h1>
+            <h3>¿Problemas para atender a tus pacientes?, Nosotros lo solucionamos.</h3>
+
+           
+            <div class="botones">
+                <a href="login.html"><div class="boton">Login</div></a>
+                <div class="boton">Registro</div>
+            </div>
+        </header>
+
+        <nav class="navegacion"> <!-- Aqui estamos iniciando la nueva etiqueta nav -->
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="">Especialidades</a>
+                    <ul class="submenu">
+                        <li><a href="">Neurología</a></li>
+                        <li><a href="">Cardiología</a></li>
+                        <li><a href="">Neonatología</a></li>
+                        <li><a href="">Todas</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Acerca de</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav><!-- Aqui estamos cerrando la nueva etiqueta nav -->
+        <!--Organizar la información de negocio o principal, etiqueta de bloque-->
+
+        <section>
+
+            ZONA PRINCIPAL
+
+
+            <div class="bienvenido">
+                <p>Bienvenido :<%=nombre%> </p>
+            </div>
+
+        </section>
+
+        <aside>
+
+            <h2>PUBLICIDAD</h2>
+
+        </aside>
+        <footer>            
+            &COPY;Todos los derechos reservados; Jordy Cubas
+        </footer>
+        <!--
+        <small style="background-color: green; width: 50%; height: 50px; display: block">Hola mundo</small>
+        <div style="background-color: red; width: 50%; height: 50px">Hola mundo</div>
+        -->
+    </body>
+</html>

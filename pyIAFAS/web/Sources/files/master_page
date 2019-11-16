@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="Sources/css/styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+            <h1>IAFAS - Estudio de Mercado</h1>
+            <div class="botones">
+                <a href="login.html"><div class="boton">Login</div></a>
+                <div class="boton">Registro</div>
+            </div>
+        </header>
+
+        <nav class="navegacion"> <!-- Aqui estamos iniciando la nueva etiqueta nav -->
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="">Especialidades</a>
+                    <ul class="submenu">
+                        <li><a href="">Neurología</a></li>
+                        <li><a href="">Cardiología</a></li>
+                        <li><a href="">Neonatología</a></li>
+                        <li><a href="">Todas</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Acerca de</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav><!-- Aqui estamos cerrando la nueva etiqueta nav -->
+
+        <!--Organizar la información de negocio o principal, etiqueta de bloque-->
+
+        <section>
+
+            <h2> ZONA PRINCIPAL </h2>     
+        </section>
+
+        <aside>
+
+            <h2>PUBLICIDAD</h2>
+
+        </aside>
+        <footer>            
+            &COPY;Todos los derechos reservados; Jordy Cubas
+        </footer>
+        <!--
+        <small style="background-color: green; width: 50%; height: 50px; display: block">Hola mundo</small>
+        <div style="background-color: red; width: 50%; height: 50px">Hola mundo</div>
+        -->
+    </body>
+</html>
